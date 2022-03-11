@@ -22,6 +22,8 @@ npm run start
 
 ![Text Editor Main Screen](Assets/screenshot.png)
 
+![Install](Assets/screen.png
+
 ## Links
 
 Heroku: 
