@@ -22,3 +22,9 @@ npm run start
 
 ![Text Editor Main Screen](Assets/screenshot.png)
 
+## Links
+
+Heroku: 
+
+Github: https://github.com/carsonccu/Text-Editor
+
