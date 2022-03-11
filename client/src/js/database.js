@@ -21,7 +21,7 @@ const initdb = async () =>
 
 // Export a function we will use to POST to the database.
 export const putDb = async (content) => {
-  console.log('Update the database, what a giver');
+  console.log('Update the database');
   // Create a connection to the database database and version we want to use.
   const jateDb = await openDB('jate', 1);
   // Create a new transaction and specify the database and data privileges.
@@ -32,7 +32,7 @@ export const putDb = async (content) => {
   const request = store.put({ id: 1, value: content });
   // Get confirmation of the request.
   const result = await request;
-  console.log('🚀 - data saved to the database', result.vale);
+  console.log('data saved', result.vale);
 
 };
 
@@ -40,7 +40,7 @@ export const putDb = async (content) => {
 // export const getDb = async () => console.error('getDb not implemented');
 // Export a function we will use to GET to the database.
 export const getDb = async () => {
-  console.log('GET from the database, so greedy');
+  console.log('GET from the database');
   // Create a connection to the database database and version we want to use.
   const jateDb = await openDB('jate', 1);
   // Create a new transaction and specify the database and data privileges.
@@ -56,7 +56,7 @@ export const getDb = async () => {
   if (result.value != undefined) {
     return result.value;
   } else {
-    console.log("dang, sorry man");
+    console.log("nope");
     return;
   }
 
