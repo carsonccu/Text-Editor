@@ -22,11 +22,11 @@ npm run start
 
 ![Text Editor Main Screen](Assets/screenshot.png)
 
-![Install](Assets/screen.png
+![Install](Assets/screen.png)
 
 ## Links
 
-Heroku: 
+Heroku: https://text-editor-carson.herokuapp.com/
 
 Github: https://github.com/carsonccu/Text-Editor
 
